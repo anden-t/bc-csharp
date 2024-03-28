@@ -10,15 +10,18 @@
     <Copyright>© 2000-2022 Legion of the Bouncy Castle Inc. </Copyright>
     <Company>The Legion of the Bouncy Castle Inc.</Company>
     <Authors>Claire Novotny</Authors>
-    <Title>Bouncy Castle Portable</Title>
-    <PackageId>Portable.BouncyCastle</PackageId>
-    <Description>Bouncy Castle Cryptography API</Description>    
+    <Title>Bouncy Castle Portable with JA3 support</Title>
+    <PackageId>Neq.BouncyCastle.Portable</PackageId>
+    <Description>Bouncy Castle Cryptography API with JA3 support</Description>    
     <PackageProjectUrl>https://www.bouncycastle.org/csharp/</PackageProjectUrl>
     <PackageReleaseNotes>https://www.bouncycastle.org/csharp/#DOWNLOAD2000</PackageReleaseNotes>
     <PackageTags>bouncycastle;cryptography;encryption;security</PackageTags>
     <NoWarn>1591;618;672</NoWarn>
     <PackageLicenseFile>License.md</PackageLicenseFile>
     <PackageIcon>csharp_logo.png</PackageIcon>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/anden-t/bc-csharp</RepositoryUrl>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
